@@ -1,0 +1,11 @@
+--- slock-orig/Makefile	2023-09-09 16:46:48.725406393 +0100
++++ slock-new/Makefile	2023-09-09 16:52:15.008740787 +0100
+@@ -30,7 +30,7 @@
+ 
+ clean:
+ 	@echo cleaning
+-	@rm -f slock ${OBJ} slock-${VERSION}.tar.gz
++	@rm -f slock ${OBJ} slock-${VERSION}.tar.gz config.h *.orig *.rej
+ 
+ dist: clean
+ 	@echo creating dist tarball
