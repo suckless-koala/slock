@@ -1,9 +1,9 @@
---- slock-orig/config.def.h	2023-09-09 16:46:48.725406393 +0100
-+++ slock-new/config.def.h	2023-09-09 16:50:08.415407045 +0100
+--- a/config.def.h	2023-09-09 16:46:48.725406393 +0100
++++ b/config.def.h	2023-09-09 16:50:08.415407045 +0100
 @@ -2,10 +2,11 @@
  static const char *user  = "nobody";
  static const char *group = "nogroup";
- 
+
 +/* Dracula theme */
  static const char *colorname[NUMCOLS] = {
 -	[INIT] =   "black",     /* after initialization */
@@ -13,5 +13,5 @@
 +	[INPUT] =  "#81A1C1",   /* during input */
 +	[FAILED] = "#BF616A",   /* wrong password */
  };
- 
+
  /* treat a cleared input like a wrong password (color) */
