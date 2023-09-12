@@ -1,6 +1,6 @@
 /* user and group to drop privileges to */
-static const char *user  = "dante";
-static const char *group = "dante";
+static const char *user  = "nobody";
+static const char *group = "users";
 
 /* Dracula theme */
 static const char *colorname[NUMCOLS] = {
